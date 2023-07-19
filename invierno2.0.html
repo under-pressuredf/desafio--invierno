@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Mi sitio web</title>
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+    
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: "Arial", sans-serif;
+      background-color: #f8f8f8;
+    }
+    
+    nav {
+      background-color: #000000;
+      color: white;
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      padding: 10px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+    
+    nav h1 {
+        font-size: 24px;
+      margin: 0;
+      padding: 0;
+      font-weight: bold;
+      text-shadow: 2px 2px 4px rgba(230, 222, 222, 0.596);
+    }
+    
+    nav img {
+      width: 50px;
+      height: 50px;
+      object-fit: cover;
+      border-radius: 50%;
+    }
+    
+    .paragraph {
+        margin-top: 100px;
+      padding: 20px;
+      background-color: white;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      line-height: 1.6;
+      font-size: 14px;
+      text-align: justify;
+    }
+    
+    .card-container {
+      display: flex;
+      justify-content: space-between;
+      margin-top: 20px;
+      padding: 0 20px;
+      background-color: rgb(221, 221, 221);
+    }
+    
+    .card {
+      text-align: center;
+      width: 240px;
+      height: 300px;
+      padding: 20px;
+      background: linear-gradient(
+            30deg,
+            rgb(226, 223, 223)50%,
+         rgb(0, 0, 0)100%); 
+    
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+      border-radius: 8px;
+    }
+   
+    
+     
+    .card h1 {
+      font-size: 20px;
+      margin-bottom: 10px;
+    }
+    
+    .card p {
+      font-size: 14px;
+    }
+    
+    .button {
+      display: block;
+      width: 220px;
+      height: 80px;
+      text-align: center;
+      line-height: 40px;
+      background: linear-gradient(
+            30deg,
+            rgb(226, 223, 223)50%,
+         rgb(0, 0, 0)100%); 
+    
+      color: white;
+      text-align: center;
+      margin: 20px auto;
+      font-size: 16px;
+      text-decoration: none;
+      border: none;
+      border-radius: 4px;
+      transition: background-color 0.3s ease;
+      cursor: pointer;
+    }
+    
+    .button:hover {
+      background: linear-gradient(
+            30deg,
+            rgb(156, 8, 8)50%,
+         rgb(0, 0, 0)100%); 
+    
+    }
+    
+    .title-medium {
+      text-align: center;
+      font-size: 24px;
+      margin-top: 40px;
+      font-weight: bold;
+      text-shadow: 2px 2px 4px rgba(230, 222, 222, 0.596);
+    }
+    
+    .card-medium-container {
+      display: flex;
+      justify-content: space-between;
+      margin-top: 20px;
+      padding: 0 20px;
+    }
+    
+    .card-medium {
+      text-align: center;
+      width: 300px;
+      height: 300px;
+      padding: 20px;
+      background: linear-gradient(
+            30deg,
+            rgba(184, 128, 23, 0.884)50%,
+         rgb(0, 0, 0)100%); 
+    
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+      border-radius: 8px;
+      margin-bottom: 20px;
+    }
+    
+    .card-medium h1 {
+      font-size: 20px;
+      margin-bottom: 10px;
+    }
+    
+    .card-medium img {
+      width: 100px;
+      height: 100px;
+      object-fit: cover;
+      border-radius: 50%;
+    }
+    
+    @media (max-width: 767px) {
+      .card-container,
+      .card-medium-container {
+        flex-wrap: wrap;
+      }
+      
+      .card,
+      .card-medium {
+        width: 100%;
+        margin-bottom: 20px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <nav>
+    <h1>desafio invierno</h1>
+    <img src="images/loga.png" alt="Logo">
+  </nav>
+  
+  <div class="paragraph">
+    <p>El invierno ha llegado y con él, una oportunidad para transformarte. Es momento de desafiar tus límites y conquistar tus metas fitness. Prepárate para un viaje emocionante que te llevará más allá de tus fronteras físicas y mentales.
+    
+        Este desafío de invierno te desafiará a ti mismo a lo largo de 30 días. Será un camino exigente, pero recuerda que las mayores recompensas provienen de los mayores esfuerzos. Cada día que te levantes y elijas enfrentar este desafío, estarás un paso más cerca de alcanzar tu mejor versión.
+        
+        El cambio físico que anhelas está al alcance de tus manos.  Imagina cómo te sentirás cuando llegue la primavera y mires atrás, orgulloso de todo lo que has logrado. Tus músculos se fortalecerán, tu resistencia aumentará y tu cuerpo se transformará en un testimonio de tu dedicación.
+    
+        No te rindas cuando encuentres obstáculos en el camino. Recuerda que la perseverancia es la clave para superar cualquier desafío. Tendrás días difíciles, pero cada uno de ellos será una oportunidad para crecer y demostrar tu fuerza interior.
+        
+        A medida que te muevas a través de este desafío, rodearte de una comunidad de personas con los mismos objetivos será invaluable. Encuentra apoyo en aquellos que también buscan un cambio y únanse en esta travesía hacia la transformación.
+        
+        No subestimes el poder de tu mente. Imagina cómo te sentirás cuando llegue la primavera y mires atrás, orgulloso de todo lo que has logrado. Tus músculos se fortalecerán, tu resistencia aumentará y tu cuerpo se transformará en un testimonio de tu dedicación.
+    
+        No te rindas cuando encuentres obstáculos en el camino. Recuerda que la perseverancia es la clave para superar cualquier desafío. Tendrás días difíciles, pero cada uno de ellos será una oportunidad para crecer y demostrar tu fuerza interior.
+        
+        A medida que te muevas a través de este desafío, rodearte de una comunidad de personas con los mismos objetivos será invaluable. Encuentra apoyo en aquellos que también buscan un cambio y únanse en esta travesía hacia la transformación.
+        
+        No subestimes el poder de tu mente.</p>
+  </div>
+  <h2 class="title-medium">premios para los ganadores del desafio invierno</h2>
+  <div class="card-container">
+    <div class="card">
+      <h1>primer puesto</h1>
+      <p>100.000</p>
+    </div>
+    
+    <div class="card">
+      <h1>segundo puesto</h1>
+      <p>70.000</p>
+    </div>
+    
+    <div class="card">
+      <h1>Tercer puesto</h1>
+      <p>$50.000</p>
+    </div>
+  </div>
+  
+  <a class="button" href="#">Anotarce aqui</a>
+  
+  <div class="title-medium">
+    <br>  <br>  <br>  <br>  <br>  <br>  <br><br>  <br>  <br>  <br>  <br>  <br>  <br>
+    <h2>Ganadores de los desafios anteriores</h2>
+  </div>
+
+  <div class="card-medium-container">
+    <div class="card-medium">
+      <h1> Nahuel Maturano: Desafio/verano 2021</h1>
+      <img src="images/1.png" alt="Imagen 1">
+    </div>
+    
+    <div class="card-medium">
+      <h1>Nahuel Maturano: Desafio/invierno 2022</h1>
+      <img src="images/1.png" alt="Imagen 2">
+    </div>
+    
+    <div class="card-medium">
+      <h1>Nahuel Maturnano: Desafio/primavera 2023</h1>
+      <img src="images/1.png" alt="Imagen 3">
+    </div>
+  </div>
+</body>
+</html>
